@@ -1,4 +1,4 @@
-//Reconstruction of .map method
+//.map()
 
 var dotMap = function(array, func) {
   var output = [];
@@ -9,7 +9,7 @@ var dotMap = function(array, func) {
 };
 
 
-//Reconstruction of .reduce method
+//.reduce()
 
 var dotReduce = function(array, func) {
   total = array[0];
@@ -20,7 +20,7 @@ var dotReduce = function(array, func) {
 };
 
 
-//Reconstruction of .filter method
+//.filter()
 
 var dotFilter = function(array, func) {
   filtered = [];
